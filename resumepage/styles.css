@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+html {
+	font-family: 'Ranga', cursive;
+    font-size: 14px;
+    height:100%;
+	background-image: url("backdrop.jpg");
+    background-color: #333;
+}
+
+header {
+	font-size: 55px;
+	font-weight: bold;
+	background-color: #B0C4DE;
+}
+
+div {
+	font-size: 18px;
+	background-color: #B0C4DE;
+}
+
+article, aside, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   font-family: 'Lora', serif;
+ 
+}
+
+h2 {
+	font-size: 29px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 15px;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+nav{
+	background-color: #CE6E3D;
+	display: block;
+	text-align: center;
+}
+nav a {
+	font-size: 18px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+article {
+	background-color: white;
+	border-radius: 25px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: white;
+	width: 75%;
+	margin: auto;
+	border-radius: 25px;
+}
+
+
+p {
+   font-size: 18px;
+   text-align: left;
+   padding: 25px;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #4d4d4d;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+ a:hover {
+	 background-color: black;
+ }
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
